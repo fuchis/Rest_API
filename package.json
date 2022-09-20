@@ -1,0 +1,19 @@
+{
+  "name": "addressbook",
+  "version": "1.0.0",
+  "description": "A simple rest api for address booking",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon src/app.js"
+  },
+  "author": "Ivan Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
